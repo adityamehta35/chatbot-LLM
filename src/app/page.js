@@ -12,7 +12,7 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
   const headRef = useRef();
-//  const yo = process.env.NEXT_PUBLIC_CHATBOT;
+// s const yo = process.env.NEXT_PUBLIC_CHATBOT;
 
 
 
