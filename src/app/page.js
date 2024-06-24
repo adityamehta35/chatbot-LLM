@@ -12,7 +12,7 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
   const headRef = useRef();
- const yo = process.env.NEXT_PUBLIC_CHATBOT;
+//  const yo = process.env.NEXT_PUBLIC_CHATBOT;
 
 
 
@@ -41,7 +41,7 @@ export default function Home() {
   <HeartIcon className="h-full" />
 </div>
       
-        {isOpen ? <Chatbot toggleChat={toggleChat} geminiApiKey={yo}/> : null}
+        {isOpen ? <Chatbot toggleChat={toggleChat} /> : null}
       
       </main>
     </div>
