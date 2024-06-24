@@ -3,7 +3,7 @@
 import OpenAI from 'openai';
 console.log('ythhtty');
 let conversation = [];
-const openAiApiKey = process.env.NEXT_PUBLIC_OPENAI_API_KEY;
+const openAiApiKey = process.env.NEXT_PUBLIC_CHATBOT
 
 const openai = new OpenAI({
   apiKey: openAiApiKey // This is also the default, can be omitted

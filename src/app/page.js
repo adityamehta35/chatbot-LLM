@@ -12,7 +12,7 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
   const headRef = useRef();
- const yo = process.env.NEXT_PUBLIC_OPENAI_API_KEY;
+ const yo = process.env.NEXT_PUBLIC_CHATBOT;
 
 
 
