@@ -52,11 +52,11 @@ To set up the Health-Related Chatbot locally, follow these steps:
 
 1. Clone the repository:
    git clone "repo link" Using HTTPS or Using SSH
-2. Install Dependencies
+2. Install Dependencies:
    npm install
 3. Set up environment variables:
    Create a .env.local file in the root directory and add your OpenAI API key:
    NEXT_PUBLIC_CHATBOT = your_openai_api_key
-4. Run the project
+4. Run the project:
    npm run dev
    
