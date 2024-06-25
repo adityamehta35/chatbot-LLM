@@ -48,7 +48,7 @@ The responses provided by the chatbot are:
 
 ## Installation
 
-#Creating an OpenAI API Key
+Creating an OpenAI API Key
 
 To use the Health-Related Chatbot, you'll need to create a secret API key from OpenAI. Follow these steps to obtain your API key:
 
