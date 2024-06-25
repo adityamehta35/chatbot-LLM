@@ -48,6 +48,30 @@ The responses provided by the chatbot are:
 
 ## Installation
 
+## Creating an OpenAI API Key
+
+To use the Health-Related Chatbot, you'll need to create a secret API key from OpenAI. Follow these steps to obtain your API key:
+
+1. **Sign Up or Log In:**
+   - Go to the [OpenAI website](https://www.openai.com/).
+   - If you don't have an account, click on "Sign Up" to create a new account. If you already have an account, click on "Log In" and enter your credentials.
+
+2. **Navigate to the API Keys Section:**
+   - Once logged in, go to the dashboard.
+   - Click on your profile icon at the top-right corner of the page.
+   - Select "API Keys" from the dropdown menu.
+
+3. **Create a New API Key:**
+   - In the API Keys section, click on the "Create new secret key" button.
+   - Enter a name for your API key to help you remember its purpose (e.g., "Health Chatbot Key").
+   - Click on "Create Key."
+
+4. **Copy the API Key:**
+   - After creating the key, you will see it displayed on the screen. **Copy this key immediately** as you won't be able to see it again.
+   - Store this key in a secure place, such as a password manager.
+
+By following these steps, you will have your OpenAI API key set up and ready to be used with the Health-Related Chatbot.
+
 To set up the Health-Related Chatbot locally, follow these steps:
 
 1. Clone the repository:
@@ -59,4 +83,21 @@ To set up the Health-Related Chatbot locally, follow these steps:
    NEXT_PUBLIC_CHATBOT = your_openai_api_key
 4. Run the project:
    npm run dev
+
+## USER TESTING
+
+User - What are some healthy habits I can incorporate into my daily routine?
+
+HealthFit - You can include habits like regular exercise, balanced diet, staying hydrated, getting enough sleep, managing stress, and practicing mindfulness. For personalized advice, consult a healthcare professional.
+
+User - How does chronic stress impact physical health?
+
+HealthFit - Chronic stress can lead to various health issues like high blood pressure, heart disease, weakened immune system, insomnia, digestive problems, and mental health issues. It's important to manage stress through relaxation techniques and seeking support. Consult a healthcare provider for individualized guidance.
    
+User - Why is getting 7-8 hours of sleep important for my health?
+
+HealthFit - Getting 7-8 hours of sleep is crucial for overall health as it helps in brain function, emotional well-being, immune function, weight management, and overall physical health. Adequate sleep supports cognitive function, memory consolidation, and better mood regulation. It also allows the body to repair and rejuvenate.
+
+User - what is temperature outside?
+
+HealthFit - If you have any health-related questions, feel free to ask!
